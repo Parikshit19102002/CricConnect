@@ -1,0 +1,194 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: #060d17;
+    color: #d5d5d5
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.body_img{
+    width: 35vw;
+    margin-left: 6vw;
+    margin-top: 7em;
+}
+
+.body_img img{
+    width: 35vw;
+    height: 75vh;
+    border-radius: 4em;
+}
+
+.image_and_name{
+    display: flex;
+}
+
+.name{
+    color: white;
+    font-size: 6em;
+    font-weight: 600;
+    margin-left: 4em;
+    margin-top: 1.1em;
+}
+
+hr{
+    width: 34.5vw;
+    opacity: 0.4;
+}
+
+.country{
+    color: white;
+    font-size: 3em;
+    border-bottom: 0.05em solid rgb(103, 102, 102);
+    width: 34.5vw;
+    margin-top: 1.3em;
+    padding-bottom: 0.4em;
+    padding-left: 1em;
+    
+}
+
+.about{
+    margin-left: 10em;
+    margin-top: 2em;
+}
+
+.batting_ranking{
+    border-bottom: 0.05em solid rgb(103, 102, 102);
+    width: 34.5vw;
+}
+
+.batting_ranking_name{
+    color: white;
+    padding-left: 1em;
+    font-size: 3em;
+    width: 34.5vw;
+    margin-top: 1em;
+    
+}
+
+.batting_ranking_rank{
+    color: rgb(180, 173, 173);
+    padding-left: 1.8em;
+    font-size: 2em;
+    width: 34.5vw;
+    margin-top: 1.3em;
+    padding-bottom: 0.6em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bowl_ranking{
+    border-bottom: 0.05em solid rgb(103, 102, 102);
+    width: 34.5vw;
+}
+
+.bowl_ranking_name{
+    color: white;
+    padding-left: 1em;
+    font-size: 3em;
+    width: 34.5vw;
+    margin-top: 1em;
+    
+}
+
+.bowl_ranking_rank{
+    color: rgb(180, 173, 173);
+    padding-left: 1.8em;
+    font-size: 2em;
+    width: 34.5vw;
+    margin-top: 1.3em;
+    padding-bottom: 0.4em;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.bio{
+    color: white;
+    padding-left: 0em;
+    font-size: 3.5em;
+    width: 34.5vw;
+    margin-top: 2.5em;
+    padding-bottom: 0.4em;
+    
+}
+
+.bio_details{
+    color: rgb(180, 173, 173);
+    padding-left: 0em;
+    font-size: 1.7em;
+    margin-top: 1.3em;
+    padding-bottom: 0.4em;
+    
+}
+
+
+
+.abbou{
+    color: white;
+    margin-left: 3em;
+    font-size: 4em;
+    margin-top: 2em;
+    padding-bottom: 0.4em;
+    
+}
+
+.born{
+    color: rgb(180, 173, 173);
+    margin-left: 5.5em;
+    font-size: 2.5em;
+    margin-top: 0.5em;
+    padding-bottom: 0.4em;
+    
+}
+
+.birth_place{
+    color: rgb(180, 173, 173);
+    margin-left: 5.5em;
+    font-size: 2.5em;
+    margin-top: 0.5em;
+    padding-bottom: 0.4em;
+    
+}
+
+.nickName{
+    color: rgb(180, 173, 173);
+    margin-left: 5.5em;
+    font-size: 2.5em;
+    margin-top: 0.5em;
+    padding-bottom: 0.4em;
+    
+}
+
+.bat{
+    color: rgb(180, 173, 173);
+    margin-left: 5.5em;
+    font-size: 2.5em;
+    margin-top: 0.5em;
+    padding-bottom: 0.4em;
+    
+}
+
+.bowl{
+    color: rgb(180, 173, 173);
+    margin-left: 5.5em;
+    font-size: 2.5em;
+    margin-top: 0.5em;
+    padding-bottom: 0.4em;
+    
+}
+
+.height{
+    color: rgb(180, 173, 173);
+    margin-left: 5.5em;
+    font-size: 2.5em;
+    margin-top: 0.5em;
+    padding-bottom: 0.4em;
+    
+}

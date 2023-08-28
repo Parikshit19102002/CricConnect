@@ -1,0 +1,201 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: #060d17;
+    color: #d5d5d5
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+.main{
+    background-color:#060d17 ;
+    height: 10vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 100000;
+}
+
+
+
+.two{
+    width: 60vw;
+    left: 40vw;
+    position: relative;
+}
+
+input{
+   width: 70%;
+   height: 6vh;
+   padding-left: 3.5em;
+   font-size: 1.5em;
+   margin: 0.75em;
+   border-radius: 5em;
+   position: relative;
+   left: 6em;
+}
+
+#searchButton{
+    visibility: hidden;
+}
+
+.imge{
+    height: 3.6vh;
+    width: 1.6vw;
+    background-image: url("magnifying-glass-solid.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 2em;
+    left: 7.5vw;
+    z-index: 2;
+}
+
+
+.cover{
+    height: 10vh;
+}
+
+.news{
+    position: relative;
+    height: 100vh;
+    top: 35vh;
+    background-color: #060d17;
+}
+
+.news img{
+     width: 35em;
+     margin: 2em;
+}
+
+.news h1{
+    color: white;
+}
+
+.diviii{
+     display: flex;
+}
+
+.divii{
+    margin-top: 2em;
+}
+
+.divii h1{
+    font-size: 2.8em;
+}
+
+.diviiii{
+    opacity: 0.8;
+    font-size: 2em;
+    margin-top: 1.2em;
+}
+
+.latest{
+    font-size: 4.5em;
+    color: white;
+    margin-left: 0.4em;
+    margin-bottom: 0.8em;
+}
+
+.info{
+    display: flex;
+}
+
+.match{
+    position: absolute;
+    color: white;
+    font-size: 1.8em;
+    top: 1.4em;
+    left: 10em;
+    
+}
+
+.player{
+    position: absolute;
+    color: white;
+    font-size: 1.8em;
+    top: 1.4em;
+    left: 18em;
+}
+
+.stats{
+    position: absolute;
+    color: white;
+    font-size: 1.8em;
+    top: 1.44em;
+    left: 25.5em;
+}
+
+.info a{
+    text-decoration: none;
+    color: white;
+}
+
+.player_img_box{
+    height: 23em;
+    margin: 1.3em;
+    overflow: hidden;
+    border-radius: 1em;
+}
+
+.player_img_box img{
+    width: 35em;
+    transition: all ease 0.5s;
+    
+}
+
+.palyer_image{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.player_img_box:hover img{
+    opacity: 0.75;
+    scale: 1.2;
+}
+
+.player_img_Box{
+   width: 30vw;
+   margin: 2em;
+   margin-right: 1.5em;
+   margin-top: 3em;
+   border-radius: 3em;
+   overflow: hidden;
+}
+
+.player_img_Box img{
+    width: 30vw;
+    border-radius: 3em;
+    transition: all ease 0.5s;
+
+}
+
+.player_img_Box:hover img{
+    opacity: 0.75;
+    scale: 1.1;
+    border-radius: 3em;
+}
+
+.player_Box{
+    display: flex;
+    margin-top: 1.5em;
+}
+
+.image_name{
+    font-family: 'Roboto Slab', serif;
+    font-size: 3em;
+    font-weight: 600;
+    text-align: center;
+}
+
+.NoFound{
+    display: none;
+}
+
+
