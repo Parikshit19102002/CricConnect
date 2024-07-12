@@ -28,6 +28,7 @@ html{
     width: 60vw;
     left: 40vw;
     position: relative;
+    cursor: pointer;
 }
 
 input{
@@ -112,6 +113,7 @@ input{
     font-size: 1.8em;
     top: 1.4em;
     left: 10em;
+    cursor: pointer;
     
 }
 
@@ -121,6 +123,7 @@ input{
     font-size: 1.8em;
     top: 1.4em;
     left: 18em;
+    cursor: pointer;
 }
 
 .stats{
@@ -129,6 +132,7 @@ input{
     font-size: 1.8em;
     top: 1.44em;
     left: 25.5em;
+    cursor: pointer;
 }
 
 .info a{

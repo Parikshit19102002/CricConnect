@@ -156,7 +156,7 @@ section img#virat{
     font-size: 1.8em;
     top: 1.4em;
     left: 7em;
-    
+    cursor: pointer;
 }
 
 .player{
@@ -165,6 +165,7 @@ section img#virat{
     font-size: 1.8em;
     top: 1.4em;
     left: 15em;
+    cursor: pointer;
 }
 
 .stats{
@@ -173,6 +174,7 @@ section img#virat{
     font-size: 1.8em;
     top: 1.44em;
     left: 22.5em;
+    cursor: pointer;
 }
 
 .info a{

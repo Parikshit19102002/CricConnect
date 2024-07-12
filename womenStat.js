@@ -28,7 +28,7 @@ let common_class=document.querySelectorAll(".common_class");
 
   batting_ranking_list.classList.remove("remove");
   
-  fetch('https://cricbuzz-cricket.p.rapidapi.com/stats/v1/rankings/batsmen?formatType=test',options)
+  fetch('https://cricbuzz-cricket.p.rapidapi.com/stats/v1/rankings/batsmen?formatType=test&isWomen=1',options)
   .then(response => {
     if (!response.ok) {
       throw new Error('Network response was not ok');
@@ -176,7 +176,7 @@ for(let common_clas of common_class){
 
 batting_test_batting.classList.remove("remove");
 
-fetch('https://cricbuzz-cricket.p.rapidapi.com/stats/v1/rankings/batsmen?formatType=test',options)
+fetch('https://cricbuzz-cricket.p.rapidapi.com/stats/v1/rankings/batsmen?formatType=test&isWomen=1',options)
 .then(response => {
   if (!response.ok) {
     throw new Error('Network response was not ok');
@@ -314,7 +314,7 @@ for(let common_clas of common_class){
 
 batting_odi_batting.classList.remove("remove");
 
-fetch('https://cricbuzz-cricket.p.rapidapi.com/stats/v1/rankings/batsmen?formatType=odi',options)
+fetch('https://cricbuzz-cricket.p.rapidapi.com/stats/v1/rankings/batsmen?formatType=odi&isWomen=1',options)
 .then(response => {
   if (!response.ok) {
     throw new Error('Network response was not ok');
@@ -450,7 +450,7 @@ for(let common_clas of common_class){
 
 batting_t20_batting.classList.remove("remove");
 
-fetch('https://cricbuzz-cricket.p.rapidapi.com/stats/v1/rankings/batsmen?formatType=t20',options)
+fetch('https://cricbuzz-cricket.p.rapidapi.com/stats/v1/rankings/batsmen?formatType=t20&isWomen=1',options)
 .then(response => {
   if (!response.ok) {
     throw new Error('Network response was not ok');
@@ -623,7 +623,7 @@ box.appendChild(row_inside_box);
  
    batting_test_batting.classList.remove("remove");
 
-    fetch('https://cricbuzz-cricket.p.rapidapi.com/stats/v1/rankings/batsmen?formatType=test',options)
+    fetch('https://cricbuzz-cricket.p.rapidapi.com/stats/v1/rankings/batsmen?formatType=test&isWomen=1',options)
     .then(response => {
       if (!response.ok) {
         throw new Error('Network response was not ok');
@@ -764,7 +764,7 @@ box.appendChild(row_inside_box);
  
    batting_test_batting.classList.remove("remove");
 
-    fetch('https://cricbuzz-cricket.p.rapidapi.com/stats/v1/rankings/batsmen?formatType=test',options)
+    fetch('https://cricbuzz-cricket.p.rapidapi.com/stats/v1/rankings/batsmen?formatType=test&isWomen=1',options)
     .then(response => {
       if (!response.ok) {
         throw new Error('Network response was not ok');
@@ -902,7 +902,7 @@ box.appendChild(row_inside_box);
  
    batting_odi_batting.classList.remove("remove");
 
-    fetch('https://cricbuzz-cricket.p.rapidapi.com/stats/v1/rankings/batsmen?formatType=odi',options)
+    fetch('https://cricbuzz-cricket.p.rapidapi.com/stats/v1/rankings/batsmen?formatType=odi&isWomen=1',options)
     .then(response => {
       if (!response.ok) {
         throw new Error('Network response was not ok');
@@ -1038,7 +1038,7 @@ box.appendChild(row_inside_box);
  
    batting_t20_batting.classList.remove("remove");
 
-    fetch('https://cricbuzz-cricket.p.rapidapi.com/stats/v1/rankings/batsmen?formatType=t20',options)
+    fetch('https://cricbuzz-cricket.p.rapidapi.com/stats/v1/rankings/batsmen?formatType=t20&isWomen=1',options)
     .then(response => {
       if (!response.ok) {
         throw new Error('Network response was not ok');
@@ -1216,7 +1216,7 @@ box.appendChild(row_inside_box);
  
    team_test_batting.classList.remove("remove");
 
-    fetch('https://cricbuzz-cricket.p.rapidapi.com/stats/v1/rankings/teams?formatType=test',options)
+    fetch('https://cricbuzz-cricket.p.rapidapi.com/stats/v1/rankings/teams?formatType=test&isWomen=1',options)
     .then(response => {
       if (!response.ok) {
         throw new Error('Network response was not ok');
@@ -1357,7 +1357,7 @@ box.appendChild(row_inside_box);
  
    team_test_batting.classList.remove("remove");
 
-    fetch('https://cricbuzz-cricket.p.rapidapi.com/stats/v1/rankings/teams?formatType=test',options)
+    fetch('https://cricbuzz-cricket.p.rapidapi.com/stats/v1/rankings/teams?formatType=test&isWomen=1',options)
     .then(response => {
       if (!response.ok) {
         throw new Error('Network response was not ok');
@@ -1494,7 +1494,7 @@ box.appendChild(row_inside_box);
  
    team_odi_batting.classList.remove("remove");
 
-    fetch('https://cricbuzz-cricket.p.rapidapi.com/stats/v1/rankings/teams?formatType=odi',options)
+    fetch('https://cricbuzz-cricket.p.rapidapi.com/stats/v1/rankings/teams?formatType=odi&isWomen=1',options)
     .then(response => {
       if (!response.ok) {
         throw new Error('Network response was not ok');
@@ -1630,7 +1630,7 @@ box.appendChild(row_inside_box);
  
    team_t20_batting.classList.remove("remove");
 
-    fetch('https://cricbuzz-cricket.p.rapidapi.com/stats/v1/rankings/teams?formatType=t20',options)
+    fetch('https://cricbuzz-cricket.p.rapidapi.com/stats/v1/rankings/teams?formatType=t20&isWomen=1',options)
     .then(response => {
       if (!response.ok) {
         throw new Error('Network response was not ok');
@@ -1799,7 +1799,7 @@ box.appendChild(row_inside_box);
  
    allrounder_test_batting.classList.remove("remove");
 
-    fetch('https://cricbuzz-cricket.p.rapidapi.com/stats/v1/rankings/allrounders?formatType=test',options)
+    fetch('https://cricbuzz-cricket.p.rapidapi.com/stats/v1/rankings/allrounders?formatType=test&isWomen=1',options)
     .then(response => {
       if (!response.ok) {
         throw new Error('Network response was not ok');
@@ -1940,7 +1940,7 @@ box.appendChild(row_inside_box);
  
    allrounder_test_batting.classList.remove("remove");
 
-    fetch('https://cricbuzz-cricket.p.rapidapi.com/stats/v1/rankings/allrounders?formatType=test',options)
+    fetch('https://cricbuzz-cricket.p.rapidapi.com/stats/v1/rankings/allrounders?formatType=test&isWomen=1',options)
     .then(response => {
       if (!response.ok) {
         throw new Error('Network response was not ok');
@@ -2078,7 +2078,7 @@ box.appendChild(row_inside_box);
  
    allrounder_odi_batting.classList.remove("remove");
 
-    fetch('https://cricbuzz-cricket.p.rapidapi.com/stats/v1/rankings/allrounders?formatType=odi',options)
+    fetch('https://cricbuzz-cricket.p.rapidapi.com/stats/v1/rankings/allrounders?formatType=odi&isWomen=1',options)
     .then(response => {
       if (!response.ok) {
         throw new Error('Network response was not ok');
@@ -2214,7 +2214,7 @@ box.appendChild(row_inside_box);
  
    allrounder_t20_batting.classList.remove("remove");
 
-    fetch('https://cricbuzz-cricket.p.rapidapi.com/stats/v1/rankings/allrounders?formatType=t20',options)
+    fetch('https://cricbuzz-cricket.p.rapidapi.com/stats/v1/rankings/allrounders?formatType=t20&isWomen=1',options)
     .then(response => {
       if (!response.ok) {
         throw new Error('Network response was not ok');
@@ -2395,7 +2395,7 @@ box.appendChild(row_inside_box);
  
    bowling_test_batting.classList.remove("remove");
 
-    fetch('https://cricbuzz-cricket.p.rapidapi.com/stats/v1/rankings/bowlers?formatType=test',options)
+    fetch('https://cricbuzz-cricket.p.rapidapi.com/stats/v1/rankings/bowlers?formatType=test&isWomen=1',options)
     .then(response => {
       if (!response.ok) {
         throw new Error('Network response was not ok');
@@ -2536,7 +2536,7 @@ box.appendChild(row_inside_box);
  
    bowling_test_batting.classList.remove("remove");
 
-    fetch('https://cricbuzz-cricket.p.rapidapi.com/stats/v1/rankings/bowlers?formatType=test',options)
+    fetch('https://cricbuzz-cricket.p.rapidapi.com/stats/v1/rankings/bowlers?formatType=test&isWomen=1',options)
     .then(response => {
       if (!response.ok) {
         throw new Error('Network response was not ok');
@@ -2674,7 +2674,7 @@ box.appendChild(row_inside_box);
  
    bowling_odi_batting.classList.remove("remove");
 
-    fetch('https://cricbuzz-cricket.p.rapidapi.com/stats/v1/rankings/bowlers?formatType=odi',options)
+    fetch('https://cricbuzz-cricket.p.rapidapi.com/stats/v1/rankings/bowlers?formatType=odi&isWomen=1',options)
     .then(response => {
       if (!response.ok) {
         throw new Error('Network response was not ok');
@@ -2810,7 +2810,7 @@ box.appendChild(row_inside_box);
  
    bowling_t20_batting.classList.remove("remove");
 
-    fetch('https://cricbuzz-cricket.p.rapidapi.com/stats/v1/rankings/bowlers?formatType=t20',options)
+    fetch('https://cricbuzz-cricket.p.rapidapi.com/stats/v1/rankings/bowlers?formatType=t20&isWomen=1',options)
     .then(response => {
       if (!response.ok) {
         throw new Error('Network response was not ok');
