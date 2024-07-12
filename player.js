@@ -1,7 +1,11 @@
 const options = {
     method: 'GET',
     headers: {
+<<<<<<< HEAD
       'X-RapidAPI-Key': '6714d07175msh71382736f31ed69p1b3eb2jsn2999f991b44a',
+=======
+      'X-RapidAPI-Key': 'e1aa14092bmsh46a7b7297d0ff9fp1a1491jsn9956860de603',
+>>>>>>> dfdaaf74a58a095ebee0ef3c0cce40777e30b44f
       'X-RapidAPI-Host': 'cricbuzz-cricket.p.rapidapi.com'
     }
   };

@@ -156,7 +156,11 @@ section img#virat{
     font-size: 1.8em;
     top: 1.4em;
     left: 7em;
+<<<<<<< HEAD
     cursor: pointer;
+=======
+    
+>>>>>>> dfdaaf74a58a095ebee0ef3c0cce40777e30b44f
 }
 
 .player{
@@ -165,7 +169,10 @@ section img#virat{
     font-size: 1.8em;
     top: 1.4em;
     left: 15em;
+<<<<<<< HEAD
     cursor: pointer;
+=======
+>>>>>>> dfdaaf74a58a095ebee0ef3c0cce40777e30b44f
 }
 
 .stats{
@@ -174,7 +181,10 @@ section img#virat{
     font-size: 1.8em;
     top: 1.44em;
     left: 22.5em;
+<<<<<<< HEAD
     cursor: pointer;
+=======
+>>>>>>> dfdaaf74a58a095ebee0ef3c0cce40777e30b44f
 }
 
 .info a{

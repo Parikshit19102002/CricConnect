@@ -1,11 +1,19 @@
 
 const url = 'https://cricbuzz-cricket.p.rapidapi.com/news/v1/index';
 const options = {
+<<<<<<< HEAD
 	method: 'GET',
 	headers: {
 		'X-RapidAPI-Key': 'e1aa14092bmsh46a7b7297d0ff9fp1a1491jsn9956860de603',
 		'X-RapidAPI-Host': 'cricbuzz-cricket.p.rapidapi.com'
 	}
+=======
+  method: 'GET',
+  headers: {
+    'X-RapidAPI-Key': '7c731bacc5mshe904bf260a4d25dp15b5dcjsn3f77a8d55314',
+    'X-RapidAPI-Host': 'cricbuzz-cricket.p.rapidapi.com'
+  }
+>>>>>>> dfdaaf74a58a095ebee0ef3c0cce40777e30b44f
 };
 
 async function fetchData() {

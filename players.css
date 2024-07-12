@@ -28,7 +28,10 @@ html{
     width: 60vw;
     left: 40vw;
     position: relative;
+<<<<<<< HEAD
     cursor: pointer;
+=======
+>>>>>>> dfdaaf74a58a095ebee0ef3c0cce40777e30b44f
 }
 
 input{
@@ -113,7 +116,10 @@ input{
     font-size: 1.8em;
     top: 1.4em;
     left: 10em;
+<<<<<<< HEAD
     cursor: pointer;
+=======
+>>>>>>> dfdaaf74a58a095ebee0ef3c0cce40777e30b44f
     
 }
 
@@ -123,7 +129,10 @@ input{
     font-size: 1.8em;
     top: 1.4em;
     left: 18em;
+<<<<<<< HEAD
     cursor: pointer;
+=======
+>>>>>>> dfdaaf74a58a095ebee0ef3c0cce40777e30b44f
 }
 
 .stats{
@@ -132,7 +141,10 @@ input{
     font-size: 1.8em;
     top: 1.44em;
     left: 25.5em;
+<<<<<<< HEAD
     cursor: pointer;
+=======
+>>>>>>> dfdaaf74a58a095ebee0ef3c0cce40777e30b44f
 }
 
 .info a{

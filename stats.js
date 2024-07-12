@@ -9,6 +9,11 @@ const options = {
 
 
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> dfdaaf74a58a095ebee0ef3c0cce40777e30b44f
 let common_class=document.querySelectorAll(".common_class");
    let batting_test_batting=document.querySelector(".batting_test_batting");
 
